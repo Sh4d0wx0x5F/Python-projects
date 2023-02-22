@@ -10,5 +10,5 @@ def palindrome(word):
     else:
         print("string is not a palindrome")
 
-word = input(str("Enter a word to check for plaindrome text: "))
+word = input(str("Enter a word to check for palindrome text: "))
 palindrome(word)
