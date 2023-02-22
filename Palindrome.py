@@ -1,4 +1,4 @@
-def plaindrome(word):
+def palindrome(word):
     word_2 = word.upper()
     l = len(word) -1
     word_3 = ""
@@ -11,4 +11,4 @@ def plaindrome(word):
         print("string is not a palindrome")
 
 word = input(str("Enter a word to check for plaindrome text: "))
-plaindrome(word)
+palindrome(word)
