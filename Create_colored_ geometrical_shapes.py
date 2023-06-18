@@ -18,3 +18,6 @@ for i in range(7):
         timmy.forward(100)
         timmy.right(360/sides)
     sides += 1
+
+screen = Screen()
+screen.exitonclick()
