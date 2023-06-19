@@ -4,11 +4,11 @@ import random
 timmy = Turtle()
 
 def change_color():
-    R = random.random()
-    B = random.random()
-    G = random.random()
-
-    timmy.color(R, G, B)
+    r = random.randint(0, 255)
+    g = random.randint(0, 255)
+    b = random.randint(0, 255)
+    color = (r, g, b)
+    tim.color(color)
 
 sides = 3
 timmy.pensize(10)
