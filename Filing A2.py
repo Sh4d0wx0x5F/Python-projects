@@ -108,6 +108,7 @@ while choice != 6:
         delete()
         choice = choice + 1
     elif a == "6":
+        delete()
         choice = 6
     else:
         print(" wrong number press, enter again : ")
